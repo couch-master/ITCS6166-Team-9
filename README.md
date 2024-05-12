@@ -51,16 +51,18 @@ Here are step-by-step guide to set up and run the "MakeItTalk" project:
    ```
    
 4. **Prepare Input Data:**
+   
    Put test audio files under examples folder as well with .wav format.
 
 
-5. **Test:**
+6. **Test:**
    ```
    python main_end2end.py --jpg <portrait_file>
    ```
    Make sure to provide a image file (portrait_file) containing the target person's face where lip-syncing will be applied.
 
-6. **Check Outputs:**
+7. **Check Outputs:**
+   
    Ouput video is saved as out.mp4
 
 ### Demo
